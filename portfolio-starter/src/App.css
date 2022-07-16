@@ -5,6 +5,7 @@
     --gray: #788097;
     --blueCard: #DDF8FE;
     --purple: rgb(238 210 255);
+    --purpleNew: #f857a6 ;
     --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
@@ -16,7 +17,22 @@
     color: var(--black);
 }
 
-
+.button {
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(to right,#ff5858,#f857a6);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+}
+.button:hover{
+    background: white;
+    flex: 2;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
 
   
 
