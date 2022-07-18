@@ -21,7 +21,9 @@ const Intro = () => {
                     level of ambition in web designing
                     and development, producing the qualified work</span>
                 </div>
-                <button className="button i-button">Hire me</button>
+                <button className="i-button">
+                    Hire me
+                </button>
                 <div className="i-icons">
                     <img src={Github} alt="" />
                     <img src={LinkedIn} alt="" />
@@ -43,6 +45,12 @@ const Intro = () => {
                     <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
                 </div>
                 <div className='blur' style={{background: "rgb(238 210 255)"}}></div>
+                <div className="blur" style={{
+                    background: '#C1F5FF',
+                    top:'17rem',
+                    width:'21rem',
+                    height:'11rem',
+                    left:'-9rem'}}></div>
             </div>
         </div>
     )
