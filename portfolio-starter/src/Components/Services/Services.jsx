@@ -3,6 +3,7 @@ import './Services.css';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
+import Card from "../Card/Card";
 
 
 const Services = () => {
@@ -17,11 +18,17 @@ const Services = () => {
                     <br/>
                     be here
                 </spane>
-                <button className="button s-button">Download CV</button>
+                <button className="s-button">Download CV</button>
                 <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div></div>
             {/* right side */}
             <div className="cards">
-                I am the right side
+                <div>
+                    <Card
+                    emoji = {HeartEmoji}
+                    heading = {'Desing'}
+                    detail = {"Text will be here"}
+                    />
+                </div>
             </div>
         </div>
     )

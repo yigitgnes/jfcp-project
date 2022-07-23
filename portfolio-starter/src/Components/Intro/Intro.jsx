@@ -17,11 +17,9 @@ const Intro = () => {
                 <div className="i-name">
                     <span>Hy! I Am</span>
                     <span>Yigit Gunes</span>
-                    <span>Full-Stack Developer without experience but high
-                    level of ambition in web designing
-                    and development, producing the qualified work</span>
+                    <span>text will be here</span>
                 </div>
-                <button className="i-button">
+                <button className="button i-button">
                     Hire me
                 </button>
                 <div className="i-icons">

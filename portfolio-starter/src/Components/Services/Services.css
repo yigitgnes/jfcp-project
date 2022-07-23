@@ -17,3 +17,35 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+.awesome>:nth-child(2){
+    color: var(--purpleNew);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(to right,#ff5858,#f857a6);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+}
+
+.s-button:hover{
+    background: white;
+    cursor: pointer;
+    color: var(--purpleNew);
+    border: 1px solid var(--purpleNew);
+}
