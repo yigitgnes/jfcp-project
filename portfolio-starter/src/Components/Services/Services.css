@@ -49,3 +49,11 @@
     color: var(--purpleNew);
     border: 1px solid var(--purpleNew);
 }
+
+.cards{
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}

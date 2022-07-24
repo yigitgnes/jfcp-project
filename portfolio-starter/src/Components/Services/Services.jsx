@@ -19,14 +19,22 @@ const Services = () => {
                     be here
                 </spane>
                 <button className="s-button">Download CV</button>
-                <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div></div>
+                <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
+            </div>
             {/* right side */}
             <div className="cards">
-                <div>
+                <div style={{left: '14rem'}}>
                     <Card
-                    emoji = {HeartEmoji}
-                    heading = {'Desing'}
-                    detail = {"Text will be here"}
+                        emoji={HeartEmoji}
+                        heading={'Desing'}
+                        detail={"Text will be here"}
+                    />
+                </div>
+                <div style={{top: "12rem", left: "-4rem"}}>
+                    <Card
+                        emoji={Glasses}
+                        heading={"Developer"}
+                        detail={"Java, Spring, HTML5, React"}
                     />
                 </div>
             </div>
